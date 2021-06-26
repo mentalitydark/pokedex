@@ -9,7 +9,7 @@
         <div class="card-content">
                 <div class="media">
                     <div class="media-content">
-                        <p class="title is-4">{{nome | FirstUpper}}</p>
+                        <p class="title is-4">{{nome}}</p>
                         <div v-if="(pokemon.type.slot === 2)">
                             <p class="subtitle is-6">{{pokemon.type.Um}}</p>
                             <p class="subtitle is-6">{{pokemon.type.Dois}}</p>
